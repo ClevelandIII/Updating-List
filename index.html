@@ -20,35 +20,35 @@
         <h3>PASSENGER TRAVEL FORM</h3>
         <h4>( * is required)</h4>
         <label for="firstName">First Name*</label>
-        <input type="text" value="Kyle" id="firstname" placeholder="First Name">
+        <input type="text" value="" id="firstname" placeholder="First Name">
         <label for="lastName">Last Name*</label>
-        <input type="text" value="Peck" id="lastname" placeholder="Last Name">
+        <input type="text" value="" id="lastname" placeholder="Last Name">
         <div class="col">
             <label for="DoB">Date of Birth*</label>
-            <input type="date" value="1990-10-06" id="dob" placeholder="MM/DD/YYYY" class="space">
+            <input type="date" value="" id="dob" placeholder="MM/DD/YYYY" class="space">
         </div>
         <label for="departing">Departure City*</label>
-        <input type="text" value="Phoenix, AZ" id="dc" placeholder="City, State (Phoenix, AZ)">
+        <input type="text" value="" id="dc" placeholder="City, State (Phoenix, AZ)">
         <label for="arriving">Arrival City*</label>
-        <input type="text" value="Atlanta, GA" id="ac" placeholder="City, State (Atlanta, GA)">
+        <input type="text" value="" id="ac" placeholder="City, State (Atlanta, GA)">
         <div class="col">
             <label for="leaveDate">Date leaving*</label>
-            <input type="date" value="2021-01-27" name="leaveDate" id="dl" placeholder="MM/DD/YYYY">
+            <input type="date" value="" name="leaveDate" id="dl" placeholder="MM/DD/YYYY">
         </div>
         <div class="col space">
             <label for="returnDate">Date Returning*</label>
-            <input type="date" value="2021-01-30" name="returnDate" id="dr" placeholder="MM/DD/YYYY">
+            <input type="date" value="" name="returnDate" id="dr" placeholder="MM/DD/YYYY">
         </div>
         <div class="col space">
             <label for="bags" class="bags">How many bags?</label>
-            <input type="number" class="bags" name="bags" id="hmb" placeholder="#" value="10">
+            <input type="number" class="bags" name="bags" id="hmb" placeholder="#" value="">
         </div>
         <label for="meal" class="lessspace">What kind of meal would you like?</label>
         <div class="col space">
             <div class="meals">
                 <div>
                     <label for="chick">Chicken</label>
-                    <input checked type="radio" name="meal" id="chick" value="chicken">
+                    <input type="radio" name="meal" id="chick" value="chicken">
                 </div>
                 <div>
                     <label for="fish">Fish</label>
@@ -63,7 +63,7 @@
         <label for="extra" class="lessspace">Order your extras (only 10$ each!)</label>
         <div class="col extras lessspace">
             <label for="legroom">Extra Leg Room?</label>
-            <input checked type="checkbox" name="extra" id="legroom" value="legroom">
+            <input type="checkbox" name="extra" id="legroom" value="legroom">
         </div>
         <div class="col extras lessspace">
             <label for="window">Window Seat?</label>
@@ -75,7 +75,7 @@
         </div>
         <div class="col extras space">
             <label for="moreFood">Second Serving of Meal?</label>
-            <input checked type="checkbox" name="extra" id="morefood" value="food">
+            <input type="checkbox" name="extra" id="morefood" value="food">
         </div>
 
         <button onclick="addToList()">Submit Passenger Info</button>
